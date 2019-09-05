@@ -25,17 +25,6 @@
 # 3- if the input number is bigger than the max number wich is zero in the beginning
 # 4- assign the input number (num_int) to max_int so that max_int = num_int
 # 5- print the biggest number 
-# 6- input a new number 
-# 7- 
+# 6- input a new number and go througt it again untill the number is an negative number
 
 
-num_int = int(input("Input a number: ")) # Do not change this line
-max_int = 0
-
-while num_int >= 0:
-    if num_int > max_int:
-        max_int = num_int
-    
-    num_int = int(input("Input a number: ")) # Do not change this line 
-
-print("The maximum is", max_int)    # Do not change this line
